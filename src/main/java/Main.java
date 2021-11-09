@@ -7,8 +7,10 @@ public class Main {
         Car car2 = new Car("blue", "Audi", 3);
         Car car3 = new Car("blue", "VW", 3);
         Car car4 = new Car("red", "Mercedes", 3);
+        Car car5 = new Car("red", "Toyota", 5);
 
         factory.buildCar(car1);
         factory.buildCar(car2);
     }
 }
+
